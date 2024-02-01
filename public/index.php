@@ -2,8 +2,6 @@
 
 require '../helpers.php';
 
-// loadView('home');
-
 $routes = [
     '/' => 'controllers/home.php',
     '/listings' => 'controllers/listings/index.php',
