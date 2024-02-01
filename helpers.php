@@ -17,5 +17,17 @@
  * @return void
  */
 function loadView($name) {
-   require basePath("views/${name}.view.php");
+   require basePath("views/{$name}.view.php");
 }
+
+
+/**
+ * Load a partial
+ * 
+ * @param string $name
+ * @return void
+ */
+function loadPartial($name) {
+   require basePath("views/partials/{$name}.php");
+}
+

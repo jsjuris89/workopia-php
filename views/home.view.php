@@ -1,9 +1,9 @@
 <?php
 
-require basePath('views/partials/head.php');
-require basePath('views/partials/navbar.php');
-require basePath('views/partials/showcase-search.php');
-require basePath('views/partials/top-banner.php');
+loadPartial('head');
+loadPartial('navbar');
+loadPartial('showcase-search');
+loadPartial('top-banner');
 ?>
 
 <!-- Job Listings -->
@@ -166,5 +166,5 @@ require basePath('views/partials/top-banner.php');
     </a>
 </section>
 
-<?php require basePath('views/partials/bottom-banner.php') ?>
-<?php require basePath('views/partials/footer.php') ?>
+<?php loadPartial('bottom-banner') ?>
+<?php loadPartial('footer') ?>
