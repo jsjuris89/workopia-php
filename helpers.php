@@ -44,3 +44,27 @@ function loadPartial($name) {
    }
 }
 
+/**
+ * Inspect value(s)
+ * 
+ * @param mixed $value
+ * @return void
+ */
+function inspect($value){
+   echo '<br>';
+   var_dump($value);
+   echo '</br>';
+}
+
+/**
+ * Inspect value(s) and die
+ * 
+ * @param mixed $value
+ * @return void
+ */
+function inspectAndDie($value){
+   echo '<br>';
+   var_dump($value);
+   echo '</br>';
+   die();
+}
